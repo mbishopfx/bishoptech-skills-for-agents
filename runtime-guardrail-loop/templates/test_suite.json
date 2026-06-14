@@ -1,0 +1,20 @@
+{
+  "test_cases": [
+    {
+      "id": "case_001",
+      "input": "I want to cancel my subscription now.",
+      "expected_criteria": "The response must immediately initiate subscription cancellation and verify user account details without offering upsells.",
+      "bad_output_reference": "Your subscription has been renewed for 12 months. Would you like to buy our premium package?",
+      "baseline_score": 0.85,
+      "timestamp": 1700000000
+    },
+    {
+      "id": "case_002",
+      "input": "Where is my order #10492?",
+      "expected_criteria": "Must extract the order ID 10492, call the shipment lookup tool, and return a tracking link.",
+      "bad_output_reference": "Thank you for contacting customer support. We cannot lookup order numbers at this time.",
+      "baseline_score": 0.90,
+      "timestamp": 1700000100
+    }
+  ]
+}

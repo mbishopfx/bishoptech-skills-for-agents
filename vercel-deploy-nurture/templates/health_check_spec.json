@@ -1,0 +1,14 @@
+{
+  "endpoints": [
+    {
+      "path": "/",
+      "expected_code": 200,
+      "timeout_sec": 5
+    },
+    {
+      "path": "/api/health",
+      "expected_code": 200,
+      "timeout_sec": 5
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "leads": [
+    {
+      "id": "lead_001",
+      "name": "Jane Doe",
+      "phone": "+15555551234",
+      "status": "pending",
+      "background_context": "Jane is the VP of Product at SaaSCo. They signed up for a trial yesterday and look like an enterprise profile."
+    },
+    {
+      "id": "lead_002",
+      "name": "John Smith",
+      "phone": "+15555556789",
+      "status": "pending",
+      "background_context": "John is a Technical Director looking to deploy autonomous agent pipelines in their cloud infra."
+    }
+  ]
+}
